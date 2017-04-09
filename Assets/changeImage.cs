@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class changeImage : MonoBehaviour {
 
-    private int counter;
+    public int counter;
 
 	// Use this for initialization
 	void Start () {
@@ -19,8 +19,20 @@ public class changeImage : MonoBehaviour {
         {
             string s = "instructions/s" + counter;
             GetComponent<Image>().sprite = Resources.Load<Sprite>(s);
+            if(counter == 10)
+            {
+                GameObject.Find("cards/card14").GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("icons/man/man6");
+            }
+            if(counter == 13)
+            {
+                GameObject.Find("cards/card14").GetComponent<SpriteRenderer>().sprite = null;
+                GameObject.Find("cards/card5").GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("icons/man/man6");
+                GameObject.Find("discard0").GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("icons/man/man9");
+                GameObject.Find("discard1").GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("icons/man/man1");
+            }
             counter++;
         }
 		
 	}
+
 }
