@@ -75,6 +75,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ActionResponse.cs" />
     <Compile Include="Assets\DiscardResponse.cs" />
     <Compile Include="Assets\GameEvents.cs" />
     <Compile Include="Assets\LoadScene.cs" />

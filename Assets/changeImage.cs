@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class changeImage : MonoBehaviour {
 
@@ -17,6 +18,10 @@ public class changeImage : MonoBehaviour {
 	void Update () {
         if (Input.GetMouseButtonDown(0))
         {
+            if(counter == 35)
+            {
+                SceneManager.LoadScene("menu");
+            }
             string s = "instructions/s" + counter;
             GetComponent<Image>().sprite = Resources.Load<Sprite>(s);
             if(counter == 10)

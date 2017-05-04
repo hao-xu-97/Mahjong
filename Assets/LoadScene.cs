@@ -15,6 +15,11 @@ public class LoadScene : MonoBehaviour {
         SceneManager.LoadScene("practice");
     }
 
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("menu");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
