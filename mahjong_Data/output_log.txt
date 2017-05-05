@@ -17,14 +17,44 @@ Platform assembly: C:\Users\hao\git\Mahjong\mahjong_Data\Managed\UnityEngine.Net
 Loading C:\Users\hao\git\Mahjong\mahjong_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\hao\git\Mahjong\mahjong_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\hao\git\Mahjong\mahjong_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.027 seconds
+- Completed reload, in  0.026 seconds
 Platform assembly: C:\Users\hao\git\Mahjong\mahjong_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\hao\git\Mahjong\mahjong_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.142212 ms
+UnloadTime: 1.145205 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.297112 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 469.
+Total: 0.238620 ms (FindLiveObjects: 0.056875 ms CreateObjectMapping: 0.013684 ms MarkObjects: 0.158224 ms  DeleteObjects: 0.008980 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.391713 ms
+
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 285.
+Total: 0.323291 ms (FindLiveObjects: 0.036776 ms CreateObjectMapping: 0.032500 ms MarkObjects: 0.190297 ms  DeleteObjects: 0.062434 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.446878 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 733.
+Total: 0.308324 ms (FindLiveObjects: 0.063717 ms CreateObjectMapping: 0.015394 ms MarkObjects: 0.221514 ms  DeleteObjects: 0.007269 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.518720 ms
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 733.
+Total: 0.318587 ms (FindLiveObjects: 0.047895 ms CreateObjectMapping: 0.016250 ms MarkObjects: 0.231350 ms  DeleteObjects: 0.022237 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.548655 ms
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 285.
+Total: 0.334838 ms (FindLiveObjects: 0.064145 ms CreateObjectMapping: 0.023092 ms MarkObjects: 0.206119 ms  DeleteObjects: 0.039770 ms)
+
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 510c -> priority: 1 
-  Thread -> id: 5260 -> priority: 1 
+  Thread -> id: 6ebc -> priority: 1 
+  Thread -> id: 612c -> priority: 1 

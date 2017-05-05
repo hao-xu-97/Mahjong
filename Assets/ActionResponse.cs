@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ActionResponse : MonoBehaviour {
+    /*  
+     * Button Listeners for various actions
+     */
 
 	public void pong()
     {

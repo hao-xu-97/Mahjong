@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour {
 
+    /*
+     * Button listeners to load scene associated with the button
+     */ 
     public void LoadTutorial()
     {
         SceneManager.LoadScene("tutorial");

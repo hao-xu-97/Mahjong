@@ -10,12 +10,14 @@ public class changeImage : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        //load initial instruction
         GetComponent<Image>().sprite = Resources.Load<Sprite>("instructions/s1");
         counter = 2;
     }
 	
 	// Update is called once per frame
 	void Update () {
+        //update instruction on every mouse click and change game state accordingly
         if (Input.GetMouseButtonDown(0))
         {
             if(counter == 35)
